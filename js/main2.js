@@ -86,23 +86,23 @@
     var marginSlider = document.getElementById('slider-margin');
     if (marginSlider != undefined) {
         noUiSlider.create(marginSlider, {
-              start: [1100],
-              step: 100,
+              start: [10000],
+              step: 5,
               connect: [true, false],
               tooltips: [true],
               range: {
-                  'min': 100,
-                  'max': 2000
+                  'min': 0,
+                  'max': 200000
               },
               pips: {
                     mode: 'values',
-                    values: [100, 2000],
+                    values: [0, 200000],
                     density: 4
                     },
                 format: wNumb({
                     decimals: 0,
                     thousand: '',
-                    prefix: '$ ',
+                    prefix: 'Rs ',
                 })
         });
         var marginMin = document.getElementById('value-lower'),

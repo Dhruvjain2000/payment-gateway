@@ -477,7 +477,7 @@ input.error {
       font-size: 16px;
       color: #666; }
       #slider-margin .noUi-pips .noUi-value:before {
-        content: '$'; }
+        content: 'Rs'; }
     #slider-margin .noUi-pips .noUi-value-horizontal {
       transform: none;
       -moz-transform: none;
